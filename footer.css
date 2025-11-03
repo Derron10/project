@@ -1,0 +1,73 @@
+/* ===== Footer Styles ===== */
+#footer {
+background-color: #ffffff;
+color: #555;
+font-family: 'Poppins', sans-serif;
+}
+
+#footer .footer-menu img {
+max-width: 120px;
+}
+
+#footer .footer-menu h6 {
+color: #000;
+font-weight: 600;
+letter-spacing: 0.5px;
+}
+
+#footer .footer-menu a {
+color: #666;
+transition: all 0.3s ease;
+}
+
+#footer .footer-menu a:hover {
+color: #0071e3;
+text-decoration: none;
+}
+
+#footer .social-links a {
+font-size: 1.2rem;
+transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#footer .social-links a:hover {
+color: #0071e3;
+transform: scale(1.2);
+}
+
+#footer hr {
+border-top: 1px solid #ddd;
+margin: 2rem 0;
+}
+
+#footer p.small {
+line-height: 1.6;
+}
+
+#footer img {
+vertical-align: middle;
+}
+
+/* Bottom area (shipping, payments, copyright) */
+#footer .small img {
+margin-right: 10px;
+opacity: 0.8;
+transition: opacity 0.3s;
+}
+
+#footer .small img:hover {
+opacity: 1;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+#footer .footer-menu {
+text-align: center;
+}
+#footer .social-links ul {
+justify-content: center;
+}
+#footer .row.align-items-center {
+text-align: center;
+}
+}
